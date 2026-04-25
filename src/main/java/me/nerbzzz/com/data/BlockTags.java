@@ -23,11 +23,20 @@ public class BlockTags extends BlockTagsProvider {
 
     protected void registerMineable() {
         var mineableWithPickaxe = tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_PICKAXE);
+        var shovel = tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_SHOVEL);
         var needsIronTool = tag(net.minecraft.tags.BlockTags.NEEDS_IRON_TOOL);
 
+        shovel.add(
+            ModBlocks.SANDBAGGREEN.get(),
+            ModBlocks.SANDBAGTAN.get()
+        );
+
         ModBlocks.BLOCKS.getEntries().forEach(entry -> {
-            mineableWithPickaxe.add(entry.get());
-            needsIronTool.add(entry.get());
+            var block = entry.get();
+            if (block != ModBlocks.SANDBAGGREEN.get() && block != ModBlocks.SANDBAGTAN.get()) {
+                mineableWithPickaxe.add(block);
+                needsIronTool.add(block);
+            }
         });
     }
 }

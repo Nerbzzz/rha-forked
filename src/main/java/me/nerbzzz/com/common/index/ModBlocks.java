@@ -3,7 +3,9 @@ package me.nerbzzz.com.common.index;
 import me.nerbzzz.com.RolledHomongenous;
 
 import me.nerbzzz.com.common.block.ArmorBlock;
+import me.nerbzzz.com.common.block.SandbagBlock;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -199,8 +201,8 @@ public interface ModBlocks {
 //    public static final DeferredHolder<Block, Block> HATCHTYPE = BLOCKS.register("hatchtype", HatchBlock::new);
 
     // Misc
-    public static final DeferredHolder<Block, Block> SANDBAGGREEN = BLOCKS.register("sandbaggreen", ArmorBlock::new);
-    public static final DeferredHolder<Block, Block> SANDBAGTAN = BLOCKS.register("sandbagtan", ArmorBlock::new);
+    public static final DeferredHolder<Block, Block> SANDBAGGREEN = BLOCKS.register("sandbaggreen", () -> new SandbagBlock(BlockBehaviour.Properties.of()));
+    public static final DeferredHolder<Block, Block> SANDBAGTAN = BLOCKS.register("sandbagtan", () -> new SandbagBlock(BlockBehaviour.Properties.of()));
 
     public static void initialize(IEventBus bus) {
         BLOCKS.register(bus);
