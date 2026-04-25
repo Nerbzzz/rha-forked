@@ -35,5 +35,6 @@ public class DataGenerators {
                 List.of(new LootTableProvider.SubProviderEntry(BlockLootTables::new, LootContextParamSets.BLOCK)),
                 event.getLookupProvider()
         ));
+        generator.addProvider(event.includeServer(), new BlockRecipes(output, lookupProvider));
     }
 }
