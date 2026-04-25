@@ -1,5 +1,4 @@
 {
-  "replace": false,
   "values": [
     "rha:hardsteel_4bo",
     "rha:hardsteelalgae",
@@ -36,7 +35,6 @@
     "rha:hardsteelslate",
     "rha:hardsteelsnow",
     "rha:hardsteeltype",
-
     "rha:layeredsteel_4bo",
     "rha:layeredsteelalgae",
     "rha:layeredsteelardenne",
@@ -72,7 +70,6 @@
     "rha:layeredsteelslate",
     "rha:layeredsteelsnow",
     "rha:layeredsteeltype",
-
     "rha:rivetedsteel_4bo",
     "rha:rivetedsteelalgae",
     "rha:rivetedsteelardenne",
@@ -108,7 +105,6 @@
     "rha:rivetedsteelslate",
     "rha:rivetedsteelsnow",
     "rha:rivetedsteeltype",
-
     "rha:slashedsteel_4bo",
     "rha:slashedsteelalgae",
     "rha:slashedsteelardenne",
@@ -146,43 +142,6 @@
     "rha:slashedsteelslate",
     "rha:slashedsteelsnow",
     "rha:slashedsteeltype",
-
-    "rha:hatch_4bo",
-    "rha:hatchalgae",
-    "rha:hatchardenne",
-    "rha:hatchazure",
-    "rha:hatchblush",
-    "rha:hatchcactus",
-    "rha:hatchcamel",
-    "rha:hatchcharcoal",
-    "rha:hatchcherenkov",
-    "rha:hatchcoral",
-    "rha:hatchdesert",
-    "rha:hatchdust",
-    "rha:hatchgarupan",
-    "rha:hatchgelb",
-    "rha:hatchgink",
-    "rha:hatchgorge",
-    "rha:hatchgravel",
-    "rha:hatchgrizzly",
-    "rha:hatchhide",
-    "rha:hatchhorizon",
-    "rha:hatchjet",
-    "rha:hatchkampfgrau",
-    "rha:hatchkat",
-    "rha:hatchley",
-    "rha:hatcholive",
-    "rha:hatchpanzergrau",
-    "rha:hatchparade",
-    "rha:hatchpatton",
-    "rha:hatchpine",
-    "rha:hatchrota",
-    "rha:hatchscale",
-    "rha:hatchsensha",
-    "rha:hatchslate",
-    "rha:hatchsnow",
-    "rha:hatchtype",
-
     "rha:sandbaggreen",
     "rha:sandbagtan"
   ]

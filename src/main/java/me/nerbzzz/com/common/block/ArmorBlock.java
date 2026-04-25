@@ -12,6 +12,7 @@ public class ArmorBlock extends Block {
                 .instrument(NoteBlockInstrument.BASEDRUM)
                 .mapColor(MapColor.METAL)
                 .sound(SoundType.NETHERITE_BLOCK)
-                .strength(1.0F, 20.F));
+                .strength(3.0F, 20.F)
+                .requiresCorrectToolForDrops());
     }
 }
