@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosed4bo",
+  "textures": {
+    "all": "rha:block/hardsteel4botex",
+    "particle": "rha:block/hardsteel4botex",
+    "0": "rha:block/hardsteel4botex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteel4botex"
+  },
+  "render_type": "solid"
+}

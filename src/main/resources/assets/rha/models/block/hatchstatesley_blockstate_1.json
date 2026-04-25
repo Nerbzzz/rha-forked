@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopenley",
+  "textures": {
+    "all": "rha:block/hardsteelleytex",
+    "particle": "rha:block/hardsteelleytex",
+    "4": "rha:block/hardsteelleytex",
+    "5": "rha:block/slashedsteelleytex",
+    "6": "rha:block/slashedsteelslatetex"
+  },
+  "render_type": "solid"
+}

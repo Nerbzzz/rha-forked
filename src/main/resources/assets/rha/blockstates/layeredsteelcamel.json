@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rha:block/layeredsteelcamel"
+    },
+    "facing=east": {
+      "model": "rha:block/layeredsteelcamel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rha:block/layeredsteelcamel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rha:block/layeredsteelcamel",
+      "y": 270
+    }
+  }
+}

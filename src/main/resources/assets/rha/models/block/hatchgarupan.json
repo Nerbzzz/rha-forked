@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedgarupan",
+  "textures": {
+    "all": "rha:block/hardsteelgarupan",
+    "particle": "rha:block/hardsteelgarupan",
+    "0": "rha:block/hardsteelgarupan",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelgarupan"
+  },
+  "render_type": "solid"
+}

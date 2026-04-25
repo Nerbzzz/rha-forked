@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedgink",
+  "textures": {
+    "all": "rha:block/hardsteelginktex",
+    "particle": "rha:block/hardsteelginktex",
+    "0": "rha:block/hardsteelginktex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelginktex"
+  },
+  "render_type": "solid"
+}

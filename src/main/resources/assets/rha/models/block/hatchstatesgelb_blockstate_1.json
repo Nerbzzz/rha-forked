@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopengelb",
+  "textures": {
+    "all": "rha:block/hardsteelgelbtex",
+    "particle": "rha:block/hardsteelgelbtex",
+    "0": "rha:block/hardsteelgelbtex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelgelbtex"
+  },
+  "render_type": "solid"
+}

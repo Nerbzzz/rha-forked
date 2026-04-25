@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedolive",
+  "textures": {
+    "all": "rha:block/hardsteelolivetex",
+    "particle": "rha:block/hardsteelolivetex",
+    "0": "rha:block/hardsteelolivetex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelolivetex"
+  },
+  "render_type": "solid"
+}

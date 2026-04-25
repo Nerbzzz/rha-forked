@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedjet",
+  "textures": {
+    "all": "rha:block/hardsteeljettex",
+    "particle": "rha:block/hardsteeljettex",
+    "0": "rha:block/hardsteeljettex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteeljettex"
+  },
+  "render_type": "solid"
+}

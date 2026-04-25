@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/rivetedsteelcherenkov",
+    "up": "rha:block/rivetedsteelcherenkov",
+    "north": "rha:block/rivetedsteelcherenkov",
+    "east": "rha:block/rivetedsteelcherenkov",
+    "south": "rha:block/rivetedsteelcherenkov",
+    "west": "rha:block/rivetedsteelcherenkov",
+    "particle": "rha:block/rivetedsteelcherenkov"
+  },
+  "render_type": "solid"
+}

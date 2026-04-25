@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/hardsteelsnowtex",
+    "up": "rha:block/hardsteelsnowtex",
+    "north": "rha:block/hardsteelsnowtex",
+    "east": "rha:block/hardsteelsnowtex",
+    "south": "rha:block/hardsteelsnowtex",
+    "west": "rha:block/hardsteelsnowtex",
+    "particle": "rha:block/hardsteelsnowtex"
+  },
+  "render_type": "solid"
+}

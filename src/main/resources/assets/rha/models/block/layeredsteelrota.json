@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/layeredsteelrotatex",
+    "up": "rha:block/layeredsteelrotatex",
+    "north": "rha:block/layeredsteelrotatex",
+    "east": "rha:block/slashedsteelrotatex",
+    "south": "rha:block/layeredsteelrotatex",
+    "west": "rha:block/slashedsteelrotatex",
+    "particle": "rha:block/layeredsteelrotatex"
+  },
+  "render_type": "solid"
+}

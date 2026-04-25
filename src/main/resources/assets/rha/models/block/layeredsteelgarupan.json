@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/layeredsteelgarupan",
+    "up": "rha:block/layeredsteelgarupan",
+    "north": "rha:block/layeredsteelgarupan",
+    "east": "rha:block/slashedsteelgarupan",
+    "south": "rha:block/layeredsteelgarupan",
+    "west": "rha:block/slashedsteelgarupan",
+    "particle": "rha:block/layeredsteelgarupan"
+  },
+  "render_type": "solid"
+}

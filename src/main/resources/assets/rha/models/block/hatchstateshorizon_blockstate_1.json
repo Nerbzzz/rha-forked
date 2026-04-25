@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopenhorizon",
+  "textures": {
+    "all": "rha:block/hardsteelhorizon",
+    "particle": "rha:block/hardsteelhorizon",
+    "0": "rha:block/hardsteelhorizon",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelhorizon"
+  },
+  "render_type": "solid"
+}

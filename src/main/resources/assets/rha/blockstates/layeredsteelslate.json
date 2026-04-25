@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rha:block/layeredsteelslate"
+    },
+    "facing=east": {
+      "model": "rha:block/layeredsteelslate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rha:block/layeredsteelslate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rha:block/layeredsteelslate",
+      "y": 270
+    }
+  }
+}

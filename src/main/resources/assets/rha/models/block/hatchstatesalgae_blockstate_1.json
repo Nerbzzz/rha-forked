@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopenalgae",
+  "textures": {
+    "all": "rha:block/hardsteelalgaetex",
+    "particle": "rha:block/hardsteelalgaetex",
+    "0": "rha:block/hardsteelalgaetex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelalgaetex"
+  },
+  "render_type": "solid"
+}

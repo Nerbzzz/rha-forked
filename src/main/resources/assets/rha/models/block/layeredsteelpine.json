@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/layeredsteelpinetex",
+    "up": "rha:block/layeredsteelpinetex",
+    "north": "rha:block/layeredsteelpinetex",
+    "east": "rha:block/slashedsteelpinetex",
+    "south": "rha:block/layeredsteelpinetex",
+    "west": "rha:block/slashedsteelpinetex",
+    "particle": "rha:block/layeredsteelpinetex"
+  },
+  "render_type": "solid"
+}

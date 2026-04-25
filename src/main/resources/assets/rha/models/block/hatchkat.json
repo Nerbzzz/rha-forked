@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedkat",
+  "textures": {
+    "all": "rha:block/hardsteelkattex",
+    "particle": "rha:block/hardsteelkattex",
+    "0": "rha:block/hardsteelkattex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelkattex"
+  },
+  "render_type": "solid"
+}

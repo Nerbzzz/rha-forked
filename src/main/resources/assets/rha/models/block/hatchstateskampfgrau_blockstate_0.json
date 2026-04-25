@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedkampfgrau",
+  "textures": {
+    "all": "rha:block/hardsteelkampfgrautex",
+    "particle": "rha:block/hardsteelkampfgrautex",
+    "0": "rha:block/hardsteelkampfgrautex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelkampfgrautex"
+  },
+  "render_type": "solid"
+}

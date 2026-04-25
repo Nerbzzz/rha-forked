@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/rivetedsteelcactustex",
+    "up": "rha:block/rivetedsteelcactustex",
+    "north": "rha:block/rivetedsteelcactustex",
+    "east": "rha:block/rivetedsteelcactustex",
+    "south": "rha:block/rivetedsteelcactustex",
+    "west": "rha:block/rivetedsteelcactustex",
+    "particle": "rha:block/rivetedsteelcactustex"
+  },
+  "render_type": "solid"
+}

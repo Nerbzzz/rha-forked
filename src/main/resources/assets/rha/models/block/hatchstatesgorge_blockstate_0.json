@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedgorge",
+  "textures": {
+    "all": "rha:block/hardsteelgorgetex",
+    "particle": "rha:block/hardsteelgorgetex",
+    "0": "rha:block/hardsteelgorgetex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelgorgetex"
+  },
+  "render_type": "solid"
+}

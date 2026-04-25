@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedgrizzly",
+  "textures": {
+    "all": "rha:block/hardsteelgrizzlytex",
+    "particle": "rha:block/hardsteelgrizzlytex",
+    "0": "rha:block/hardsteelgrizzlytex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelgrizzlytex"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/layeredsteelcoral",
+    "up": "rha:block/layeredsteelcoral",
+    "north": "rha:block/layeredsteelcoral",
+    "east": "rha:block/slashedsteelcoral",
+    "south": "rha:block/layeredsteelcoral",
+    "west": "rha:block/slashedsteelcoral",
+    "particle": "rha:block/layeredsteelcoral"
+  },
+  "render_type": "solid"
+}

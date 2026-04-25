@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/rivetedsteelblush",
+    "up": "rha:block/rivetedsteelblush",
+    "north": "rha:block/rivetedsteelblush",
+    "east": "rha:block/rivetedsteelblush",
+    "south": "rha:block/rivetedsteelblush",
+    "west": "rha:block/rivetedsteelblush",
+    "particle": "rha:block/rivetedsteelblush"
+  },
+  "render_type": "solid"
+}

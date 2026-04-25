@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rha:block/sandbaggreen"
+    },
+    "facing=east": {
+      "model": "rha:block/sandbaggreen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rha:block/sandbaggreen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rha:block/sandbaggreen",
+      "y": 270
+    }
+  }
+}

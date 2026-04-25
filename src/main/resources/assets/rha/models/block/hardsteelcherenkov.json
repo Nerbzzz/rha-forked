@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/hardsteelcherenkov",
+    "up": "rha:block/hardsteelcherenkov",
+    "north": "rha:block/hardsteelcherenkov",
+    "east": "rha:block/hardsteelcherenkov",
+    "south": "rha:block/hardsteelcherenkov",
+    "west": "rha:block/hardsteelcherenkov",
+    "particle": "rha:block/hardsteelcherenkov"
+  },
+  "render_type": "solid"
+}

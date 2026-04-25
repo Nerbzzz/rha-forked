@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchcloseddesert",
+  "textures": {
+    "all": "rha:block/hardsteeldeserttex",
+    "particle": "rha:block/hardsteeldeserttex",
+    "0": "rha:block/hardsteeldeserttex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteeldeserttex"
+  },
+  "render_type": "solid"
+}

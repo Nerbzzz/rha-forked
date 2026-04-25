@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedcharcoal",
+  "textures": {
+    "all": "rha:block/hardsteelcharcoaltex",
+    "particle": "rha:block/hardsteelcharcoaltex",
+    "0": "rha:block/hardsteelcharcoaltex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelcharcoaltex"
+  },
+  "render_type": "solid"
+}

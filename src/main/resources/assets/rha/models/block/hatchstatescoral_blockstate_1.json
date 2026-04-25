@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopencoral",
+  "textures": {
+    "all": "rha:block/hardsteelcoral",
+    "particle": "rha:block/hardsteelcoral",
+    "0": "rha:block/hardsteelcoral",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelcoral"
+  },
+  "render_type": "solid"
+}

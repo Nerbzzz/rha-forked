@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,blockstate=0": {
+      "model": "rha:block/hatchrota"
+    },
+    "facing=east,blockstate=0": {
+      "model": "rha:block/hatchrota",
+      "y": 90
+    },
+    "facing=south,blockstate=0": {
+      "model": "rha:block/hatchrota",
+      "y": 180
+    },
+    "facing=west,blockstate=0": {
+      "model": "rha:block/hatchrota",
+      "y": 270
+    },
+    "facing=north,blockstate=1": {
+      "model": "rha:block/hatchstatesrota_blockstate_0"
+    },
+    "facing=east,blockstate=1": {
+      "model": "rha:block/hatchstatesrota_blockstate_0",
+      "y": 90
+    },
+    "facing=south,blockstate=1": {
+      "model": "rha:block/hatchstatesrota_blockstate_0",
+      "y": 180
+    },
+    "facing=west,blockstate=1": {
+      "model": "rha:block/hatchstatesrota_blockstate_0",
+      "y": 270
+    },
+    "facing=north,blockstate=2": {
+      "model": "rha:block/hatchstatesrota_blockstate_1"
+    },
+    "facing=east,blockstate=2": {
+      "model": "rha:block/hatchstatesrota_blockstate_1",
+      "y": 90
+    },
+    "facing=south,blockstate=2": {
+      "model": "rha:block/hatchstatesrota_blockstate_1",
+      "y": 180
+    },
+    "facing=west,blockstate=2": {
+      "model": "rha:block/hatchstatesrota_blockstate_1",
+      "y": 270
+    }
+  }
+}

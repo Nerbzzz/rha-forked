@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopencactus",
+  "textures": {
+    "all": "rha:block/hardsteelcactustex",
+    "particle": "rha:block/hardsteelcactustex",
+    "0": "rha:block/hardsteelcactustex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelcactustex"
+  },
+  "render_type": "solid"
+}

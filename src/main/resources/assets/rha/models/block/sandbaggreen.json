@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/sandbagtoptex",
+    "up": "rha:block/sandbagtoptex",
+    "north": "rha:block/sandbagsidetex",
+    "east": "rha:block/sandbagsidetex",
+    "south": "rha:block/sandbagsidetex",
+    "west": "rha:block/sandbagsidetex",
+    "particle": "rha:block/sandbagtoptex"
+  },
+  "render_type": "solid"
+}

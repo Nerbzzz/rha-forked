@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedsnow",
+  "textures": {
+    "all": "rha:block/hardsteelsnowtex",
+    "particle": "rha:block/hardsteelsnowtex",
+    "0": "rha:block/hardsteelsnowtex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelsnowtex"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rha:block/layeredsteeldesert"
+    },
+    "facing=east": {
+      "model": "rha:block/layeredsteeldesert",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rha:block/layeredsteeldesert",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rha:block/layeredsteeldesert",
+      "y": 270
+    }
+  }
+}

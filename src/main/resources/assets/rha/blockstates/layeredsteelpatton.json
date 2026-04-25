@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rha:block/layeredsteelpatton"
+    },
+    "facing=east": {
+      "model": "rha:block/layeredsteelpatton",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rha:block/layeredsteelpatton",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rha:block/layeredsteelpatton",
+      "y": 270
+    }
+  }
+}

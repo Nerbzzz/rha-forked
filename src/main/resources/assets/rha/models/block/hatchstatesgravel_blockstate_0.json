@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedgravel",
+  "textures": {
+    "all": "rha:block/hardsteelgraveltex",
+    "particle": "rha:block/hardsteelgraveltex",
+    "0": "rha:block/hardsteelgraveltex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelgraveltex"
+  },
+  "render_type": "solid"
+}

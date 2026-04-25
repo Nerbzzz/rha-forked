@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedpatton",
+  "textures": {
+    "all": "rha:block/hardsteelpatton",
+    "particle": "rha:block/hardsteelpatton",
+    "0": "rha:block/hardsteelpatton",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelpatton"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rha:block/layeredsteelcactus"
+    },
+    "facing=east": {
+      "model": "rha:block/layeredsteelcactus",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rha:block/layeredsteelcactus",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rha:block/layeredsteelcactus",
+      "y": 270
+    }
+  }
+}

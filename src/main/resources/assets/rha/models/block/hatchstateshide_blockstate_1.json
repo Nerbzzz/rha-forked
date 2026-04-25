@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopenhide",
+  "textures": {
+    "all": "rha:block/hardsteelhidetex",
+    "particle": "rha:block/hardsteelhidetex",
+    "0": "rha:block/hardsteelhidetex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelhidetex"
+  },
+  "render_type": "solid"
+}

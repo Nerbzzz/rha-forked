@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopencherenkov",
+  "textures": {
+    "all": "rha:block/hardsteelcherenkov",
+    "particle": "rha:block/hardsteelcherenkov",
+    "0": "rha:block/hardsteelcherenkov",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelcherenkov"
+  },
+  "render_type": "solid"
+}

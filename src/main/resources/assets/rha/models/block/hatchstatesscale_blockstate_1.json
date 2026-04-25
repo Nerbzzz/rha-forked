@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopensscale",
+  "textures": {
+    "all": "rha:block/hardsteelscaletex",
+    "particle": "rha:block/hardsteelscaletex",
+    "0": "rha:block/hardsteelscaletex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelscaletex"
+  },
+  "render_type": "solid"
+}

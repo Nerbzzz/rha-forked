@@ -1,0 +1,210 @@
+package me.nerbzzz.com.common.index;
+
+import me.nerbzzz.com.RolledHomongenous;
+
+import me.nerbzzz.com.common.block.ArmorBlock;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.level.block.Block;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+public interface ModItems {
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(RolledHomongenous.MOD_ID);
+
+    // Hard Steel
+    public static final DeferredItem<BlockItem> HARDSTEEL_4BO = ITEMS.registerSimpleBlockItem("hardsteel_4bo", ModBlocks.HARDSTEEL_4BO);
+    public static final DeferredItem<BlockItem> HARDSTEELALGAE = ITEMS.registerSimpleBlockItem("hardsteelalgae", ModBlocks.HARDSTEELALGAE);
+    public static final DeferredItem<BlockItem> HARDSTEELARDENNE = ITEMS.registerSimpleBlockItem("hardsteelardenne", ModBlocks.HARDSTEELARDENNE);
+    public static final DeferredItem<BlockItem> HARDSTEELAZURE = ITEMS.registerSimpleBlockItem("hardsteelazure", ModBlocks.HARDSTEELAZURE);
+    public static final DeferredItem<BlockItem> HARDSTEELBLUSH = ITEMS.registerSimpleBlockItem("hardsteelblush", ModBlocks.HARDSTEELBLUSH);
+    public static final DeferredItem<BlockItem> HARDSTEELCACTUS = ITEMS.registerSimpleBlockItem("hardsteelcactus", ModBlocks.HARDSTEELCACTUS);
+    public static final DeferredItem<BlockItem> HARDSTEELCAMEL = ITEMS.registerSimpleBlockItem("hardsteelcamel", ModBlocks.HARDSTEELCAMEL);
+    public static final DeferredItem<BlockItem> HARDSTEELCHARCOAL = ITEMS.registerSimpleBlockItem("hardsteelcharcoal", ModBlocks.HARDSTEELCHARCOAL);
+    public static final DeferredItem<BlockItem> HARDSTEELCHERENKOV = ITEMS.registerSimpleBlockItem("hardsteelcherenkov", ModBlocks.HARDSTEELCHERENKOV);
+    public static final DeferredItem<BlockItem> HARDSTEELCORAL = ITEMS.registerSimpleBlockItem("hardsteelcoral", ModBlocks.HARDSTEELCORAL);
+    public static final DeferredItem<BlockItem> HARDSTEELDESERT = ITEMS.registerSimpleBlockItem("hardsteeldesert", ModBlocks.HARDSTEELDESERT);
+    public static final DeferredItem<BlockItem> HARDSTEELDUST = ITEMS.registerSimpleBlockItem("hardsteeldust", ModBlocks.HARDSTEELDUST);
+    public static final DeferredItem<BlockItem> HARDSTEELGARUPAN = ITEMS.registerSimpleBlockItem("hardsteelgarupan", ModBlocks.HARDSTEELGARUPAN);
+    public static final DeferredItem<BlockItem> HARDSTEELGELB = ITEMS.registerSimpleBlockItem("hardsteelgelb", ModBlocks.HARDSTEELGELB);
+    public static final DeferredItem<BlockItem> HARDSTEELGINK = ITEMS.registerSimpleBlockItem("hardsteelgink", ModBlocks.HARDSTEELGINK);
+    public static final DeferredItem<BlockItem> HARDSTEELGORGE = ITEMS.registerSimpleBlockItem("hardsteelgorge", ModBlocks.HARDSTEELGORGE);
+    public static final DeferredItem<BlockItem> HARDSTEELGRAVEL = ITEMS.registerSimpleBlockItem("hardsteelgravel", ModBlocks.HARDSTEELGRAVEL);
+    public static final DeferredItem<BlockItem> HARDSTEELGRIZZLY = ITEMS.registerSimpleBlockItem("hardsteelgrizzly", ModBlocks.HARDSTEELGRIZZLY);
+    public static final DeferredItem<BlockItem> HARDSTEELHIDE = ITEMS.registerSimpleBlockItem("hardsteelhide", ModBlocks.HARDSTEELHIDE);
+    public static final DeferredItem<BlockItem> HARDSTEELHORIZON = ITEMS.registerSimpleBlockItem("hardsteelhorizon", ModBlocks.HARDSTEELHORIZON);
+    public static final DeferredItem<BlockItem> HARDSTEELJET = ITEMS.registerSimpleBlockItem("hardsteeljet", ModBlocks.HARDSTEELJET);
+    public static final DeferredItem<BlockItem> HARDSTEELKAMPFGRAU = ITEMS.registerSimpleBlockItem("hardsteelkampfgrau", ModBlocks.HARDSTEELKAMPFGRAU);
+    public static final DeferredItem<BlockItem> HARDSTEELKAT = ITEMS.registerSimpleBlockItem("hardsteelkat", ModBlocks.HARDSTEELKAT);
+    public static final DeferredItem<BlockItem> HARDSTEELLEY = ITEMS.registerSimpleBlockItem("hardsteelley", ModBlocks.HARDSTEELLEY);
+    public static final DeferredItem<BlockItem> HARDSTEELOLIVE = ITEMS.registerSimpleBlockItem("hardsteelolive", ModBlocks.HARDSTEELOLIVE);
+    public static final DeferredItem<BlockItem> HARDSTEELPANZERGRAU = ITEMS.registerSimpleBlockItem("hardsteelpanzergrau", ModBlocks.HARDSTEELPANZERGRAU);
+    public static final DeferredItem<BlockItem> HARDSTEELPARADE = ITEMS.registerSimpleBlockItem("hardsteelparade", ModBlocks.HARDSTEELPARADE);
+    public static final DeferredItem<BlockItem> HARDSTEELPATTON = ITEMS.registerSimpleBlockItem("hardsteelpatton", ModBlocks.HARDSTEELPATTON);
+    public static final DeferredItem<BlockItem> HARDSTEELPINE = ITEMS.registerSimpleBlockItem("hardsteelpine", ModBlocks.HARDSTEELPINE);
+    public static final DeferredItem<BlockItem> HARDSTEELROTA = ITEMS.registerSimpleBlockItem("hardsteelrota", ModBlocks.HARDSTEELROTA);
+    public static final DeferredItem<BlockItem> HARDSTEELSCALE = ITEMS.registerSimpleBlockItem("hardsteelscale", ModBlocks.HARDSTEELSCALE);
+    public static final DeferredItem<BlockItem> HARDSTEELSENSHA = ITEMS.registerSimpleBlockItem("hardsteelsensha", ModBlocks.HARDSTEELSENSHA);
+    public static final DeferredItem<BlockItem> HARDSTEELSLATE = ITEMS.registerSimpleBlockItem("hardsteelslate", ModBlocks.HARDSTEELSLATE);
+    public static final DeferredItem<BlockItem> HARDSTEELSNOW = ITEMS.registerSimpleBlockItem("hardsteelsnow", ModBlocks.HARDSTEELSNOW);
+    public static final DeferredItem<BlockItem> HARDSTEELTYPE = ITEMS.registerSimpleBlockItem("hardsteeltype", ModBlocks.HARDSTEELTYPE);
+
+    // Layered Steel
+    public static final DeferredItem<BlockItem> LAYEREDSTEEL_4BO = ITEMS.registerSimpleBlockItem("layeredsteel_4bo", ModBlocks.LAYEREDSTEEL_4BO);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELALGAE = ITEMS.registerSimpleBlockItem("layeredsteelalgae", ModBlocks.LAYEREDSTEELALGAE);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELARDENNE = ITEMS.registerSimpleBlockItem("layeredsteelardenne", ModBlocks.LAYEREDSTEELARDENNE);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELAZURE = ITEMS.registerSimpleBlockItem("layeredsteelazure", ModBlocks.LAYEREDSTEELAZURE);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELBLUSH = ITEMS.registerSimpleBlockItem("layeredsteelblush", ModBlocks.LAYEREDSTEELBLUSH);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELCACTUS = ITEMS.registerSimpleBlockItem("layeredsteelcactus", ModBlocks.LAYEREDSTEELCACTUS);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELCAMEL = ITEMS.registerSimpleBlockItem("layeredsteelcamel", ModBlocks.LAYEREDSTEELCAMEL);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELCHARCOAL = ITEMS.registerSimpleBlockItem("layeredsteelcharcoal", ModBlocks.LAYEREDSTEELCHARCOAL);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELCHERENKOV = ITEMS.registerSimpleBlockItem("layeredsteelcherenkov", ModBlocks.LAYEREDSTEELCHERENKOV);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELCORAL = ITEMS.registerSimpleBlockItem("layeredsteelcoral", ModBlocks.LAYEREDSTEELCORAL);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELDESERT = ITEMS.registerSimpleBlockItem("layeredsteeldesert", ModBlocks.LAYEREDSTEELDESERT);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELDUST = ITEMS.registerSimpleBlockItem("layeredsteeldust", ModBlocks.LAYEREDSTEELDUST);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELGARUPAN = ITEMS.registerSimpleBlockItem("layeredsteelgarupan", ModBlocks.LAYEREDSTEELGARUPAN);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELGELB = ITEMS.registerSimpleBlockItem("layeredsteelgelb", ModBlocks.LAYEREDSTEELGELB);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELGINK = ITEMS.registerSimpleBlockItem("layeredsteelgink", ModBlocks.LAYEREDSTEELGINK);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELGORGE = ITEMS.registerSimpleBlockItem("layeredsteelgorge", ModBlocks.LAYEREDSTEELGORGE);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELGRAVEL = ITEMS.registerSimpleBlockItem("layeredsteelgravel", ModBlocks.LAYEREDSTEELGRAVEL);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELGRIZZLY = ITEMS.registerSimpleBlockItem("layeredsteelgrizzly", ModBlocks.LAYEREDSTEELGRIZZLY);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELHIDE = ITEMS.registerSimpleBlockItem("layeredsteelhide", ModBlocks.LAYEREDSTEELHIDE);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELHORIZON = ITEMS.registerSimpleBlockItem("layeredsteelhorizon", ModBlocks.LAYEREDSTEELHORIZON);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELJET = ITEMS.registerSimpleBlockItem("layeredsteeljet", ModBlocks.LAYEREDSTEELJET);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELKAMPFGRAU = ITEMS.registerSimpleBlockItem("layeredsteelkampfgrau", ModBlocks.LAYEREDSTEELKAMPFGRAU);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELKAT = ITEMS.registerSimpleBlockItem("layeredsteelkat", ModBlocks.LAYEREDSTEELKAT);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELLEY = ITEMS.registerSimpleBlockItem("layeredsteelley", ModBlocks.LAYEREDSTEELLEY);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELOLIVE = ITEMS.registerSimpleBlockItem("layeredsteelolive", ModBlocks.LAYEREDSTEELOLIVE);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELPANZERGRAU = ITEMS.registerSimpleBlockItem("layeredsteelpanzergrau", ModBlocks.LAYEREDSTEELPANZERGRAU);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELPARADE = ITEMS.registerSimpleBlockItem("layeredsteelparade", ModBlocks.LAYEREDSTEELPARADE);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELPATTON = ITEMS.registerSimpleBlockItem("layeredsteelpatton", ModBlocks.LAYEREDSTEELPATTON);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELPINE = ITEMS.registerSimpleBlockItem("layeredsteelpine", ModBlocks.LAYEREDSTEELPINE);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELROTA = ITEMS.registerSimpleBlockItem("layeredsteelrota", ModBlocks.LAYEREDSTEELROTA);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELSCALE = ITEMS.registerSimpleBlockItem("layeredsteelscale", ModBlocks.LAYEREDSTEELSCALE);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELSENSHA = ITEMS.registerSimpleBlockItem("layeredsteelsensha", ModBlocks.LAYEREDSTEELSENSHA);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELSLATE = ITEMS.registerSimpleBlockItem("layeredsteelslate", ModBlocks.LAYEREDSTEELSLATE);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELSNOW = ITEMS.registerSimpleBlockItem("layeredsteelsnow", ModBlocks.LAYEREDSTEELSNOW);
+    public static final DeferredItem<BlockItem> LAYEREDSTEELTYPE = ITEMS.registerSimpleBlockItem("layeredsteeltype", ModBlocks.LAYEREDSTEELTYPE);
+
+    // Riveted Steel
+    public static final DeferredItem<BlockItem> RIVETEDSTEEL_4BO = ITEMS.registerSimpleBlockItem("rivetedsteel_4bo", ModBlocks.RIVETEDSTEEL_4BO);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELALGAE = ITEMS.registerSimpleBlockItem("rivetedsteelalgae", ModBlocks.RIVETEDSTEELALGAE);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELARDENNE = ITEMS.registerSimpleBlockItem("rivetedsteelardenne", ModBlocks.RIVETEDSTEELARDENNE);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELAZURE = ITEMS.registerSimpleBlockItem("rivetedsteelazure", ModBlocks.RIVETEDSTEELAZURE);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELBLUSH = ITEMS.registerSimpleBlockItem("rivetedsteelblush", ModBlocks.RIVETEDSTEELBLUSH);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELCACTUS = ITEMS.registerSimpleBlockItem("rivetedsteelcactus", ModBlocks.RIVETEDSTEELCACTUS);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELCAMEL = ITEMS.registerSimpleBlockItem("rivetedsteelcamel", ModBlocks.RIVETEDSTEELCAMEL);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELCHARCOAL = ITEMS.registerSimpleBlockItem("rivetedsteelcharcoal", ModBlocks.RIVETEDSTEELCHARCOAL);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELCHERENKOV = ITEMS.registerSimpleBlockItem("rivetedsteelcherenkov", ModBlocks.RIVETEDSTEELCHERENKOV);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELCORAL = ITEMS.registerSimpleBlockItem("rivetedsteelcoral", ModBlocks.RIVETEDSTEELCORAL);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELDESERT = ITEMS.registerSimpleBlockItem("rivetedsteeldesert", ModBlocks.RIVETEDSTEELDESERT);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELDUST = ITEMS.registerSimpleBlockItem("rivetedsteeldust", ModBlocks.RIVETEDSTEELDUST);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELGARUPAN = ITEMS.registerSimpleBlockItem("rivetedsteelgarupan", ModBlocks.RIVETEDSTEELGARUPAN);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELGELB = ITEMS.registerSimpleBlockItem("rivetedsteelgelb", ModBlocks.RIVETEDSTEELGELB);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELGINK = ITEMS.registerSimpleBlockItem("rivetedsteelgink", ModBlocks.RIVETEDSTEELGINK);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELGORGE = ITEMS.registerSimpleBlockItem("rivetedsteelgorge", ModBlocks.RIVETEDSTEELGORGE);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELGRAVEL = ITEMS.registerSimpleBlockItem("rivetedsteelgravel", ModBlocks.RIVETEDSTEELGRAVEL);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELGRIZZLY = ITEMS.registerSimpleBlockItem("rivetedsteelgrizzly", ModBlocks.RIVETEDSTEELGRIZZLY);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELHIDE = ITEMS.registerSimpleBlockItem("rivetedsteelhide", ModBlocks.RIVETEDSTEELHIDE);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELHORIZON = ITEMS.registerSimpleBlockItem("rivetedsteelhorizon", ModBlocks.RIVETEDSTEELHORIZON);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELJET = ITEMS.registerSimpleBlockItem("rivetedsteeljet", ModBlocks.RIVETEDSTEELJET);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELKAMPFGRAU = ITEMS.registerSimpleBlockItem("rivetedsteelkampfgrau", ModBlocks.RIVETEDSTEELKAMPFGRAU);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELKAT = ITEMS.registerSimpleBlockItem("rivetedsteelkat", ModBlocks.RIVETEDSTEELKAT);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELLEY = ITEMS.registerSimpleBlockItem("rivetedsteelley", ModBlocks.RIVETEDSTEELLEY);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELOLIVE = ITEMS.registerSimpleBlockItem("rivetedsteelolive", ModBlocks.RIVETEDSTEELOLIVE);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELPANZERGRAU = ITEMS.registerSimpleBlockItem("rivetedsteelpanzergrau", ModBlocks.RIVETEDSTEELPANZERGRAU);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELPARADE = ITEMS.registerSimpleBlockItem("rivetedsteelparade", ModBlocks.RIVETEDSTEELPARADE);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELPATTON = ITEMS.registerSimpleBlockItem("rivetedsteelpatton", ModBlocks.RIVETEDSTEELPATTON);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELPINE = ITEMS.registerSimpleBlockItem("rivetedsteelpine", ModBlocks.RIVETEDSTEELPINE);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELROTA = ITEMS.registerSimpleBlockItem("rivetedsteelrota", ModBlocks.RIVETEDSTEELROTA);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELSCALE = ITEMS.registerSimpleBlockItem("rivetedsteelscale", ModBlocks.RIVETEDSTEELSCALE);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELSENSHA = ITEMS.registerSimpleBlockItem("rivetedsteelsensha", ModBlocks.RIVETEDSTEELSENSHA);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELSLATE = ITEMS.registerSimpleBlockItem("rivetedsteelslate", ModBlocks.RIVETEDSTEELSLATE);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELSNOW = ITEMS.registerSimpleBlockItem("rivetedsteelsnow", ModBlocks.RIVETEDSTEELSNOW);
+    public static final DeferredItem<BlockItem> RIVETEDSTEELTYPE = ITEMS.registerSimpleBlockItem("rivetedsteeltype", ModBlocks.RIVETEDSTEELTYPE);
+
+    // Slashed Steel
+    public static final DeferredItem<BlockItem> SLASHEDSTEEL_4BO = ITEMS.registerSimpleBlockItem("slashedsteel_4bo", ModBlocks.SLASHEDSTEEL_4BO);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELALGAE = ITEMS.registerSimpleBlockItem("slashedsteelalgae", ModBlocks.SLASHEDSTEELALGAE);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELARDENNE = ITEMS.registerSimpleBlockItem("slashedsteelardenne", ModBlocks.SLASHEDSTEELARDENNE);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELAZURE = ITEMS.registerSimpleBlockItem("slashedsteelazure", ModBlocks.SLASHEDSTEELAZURE);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELBLUSH = ITEMS.registerSimpleBlockItem("slashedsteelblush", ModBlocks.SLASHEDSTEELBLUSH);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELCACTUS = ITEMS.registerSimpleBlockItem("slashedsteelcactus", ModBlocks.SLASHEDSTEELCACTUS);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELCAMEL = ITEMS.registerSimpleBlockItem("slashedsteelcamel", ModBlocks.SLASHEDSTEELCAMEL);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELCHARCOAL = ITEMS.registerSimpleBlockItem("slashedsteelcharcoal", ModBlocks.SLASHEDSTEELCHARCOAL);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELCHERENKOV = ITEMS.registerSimpleBlockItem("slashedsteelcherenkov", ModBlocks.SLASHEDSTEELCHERENKOV);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELCORAL = ITEMS.registerSimpleBlockItem("slashedsteelcoral", ModBlocks.SLASHEDSTEELCORAL);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELDESERT = ITEMS.registerSimpleBlockItem("slashedsteeldesert", ModBlocks.SLASHEDSTEELDESERT);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELDUST = ITEMS.registerSimpleBlockItem("slashedsteeldust", ModBlocks.SLASHEDSTEELDUST);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELGARUPAN = ITEMS.registerSimpleBlockItem("slashedsteelgarupan", ModBlocks.SLASHEDSTEELGARUPAN);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELGELB = ITEMS.registerSimpleBlockItem("slashedsteelgelb", ModBlocks.SLASHEDSTEELGELB);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELGINK = ITEMS.registerSimpleBlockItem("slashedsteelgink", ModBlocks.SLASHEDSTEELGINK);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELGOLD = ITEMS.registerSimpleBlockItem("slashedsteelgold", ModBlocks.SLASHEDSTEELGOLD);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELGORGE = ITEMS.registerSimpleBlockItem("slashedsteelgorge", ModBlocks.SLASHEDSTEELGORGE);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELGRAVEL = ITEMS.registerSimpleBlockItem("slashedsteelgravel", ModBlocks.SLASHEDSTEELGRAVEL);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELGRIZZLY = ITEMS.registerSimpleBlockItem("slashedsteelgrizzly", ModBlocks.SLASHEDSTEELGRIZZLY);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELHIDE = ITEMS.registerSimpleBlockItem("slashedsteelhide", ModBlocks.SLASHEDSTEELHIDE);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELHORIZON = ITEMS.registerSimpleBlockItem("slashedsteelhorizon", ModBlocks.SLASHEDSTEELHORIZON);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELJET = ITEMS.registerSimpleBlockItem("slashedsteeljet", ModBlocks.SLASHEDSTEELJET);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELKAMPFGRAU = ITEMS.registerSimpleBlockItem("slashedsteelkampfgrau", ModBlocks.SLASHEDSTEELKAMPFGRAU);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELKAT = ITEMS.registerSimpleBlockItem("slashedsteelkat", ModBlocks.SLASHEDSTEELKAT);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELLEY = ITEMS.registerSimpleBlockItem("slashedsteelley", ModBlocks.SLASHEDSTEELLEY);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELNOTEX = ITEMS.registerSimpleBlockItem("slashedsteelnotex", ModBlocks.SLASHEDSTEELNOTEX);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELOLIVE = ITEMS.registerSimpleBlockItem("slashedsteelolive", ModBlocks.SLASHEDSTEELOLIVE);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELPANZERGRAU = ITEMS.registerSimpleBlockItem("slashedsteelpanzergrau", ModBlocks.SLASHEDSTEELPANZERGRAU);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELPARADE = ITEMS.registerSimpleBlockItem("slashedsteelparade", ModBlocks.SLASHEDSTEELPARADE);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELPATTON = ITEMS.registerSimpleBlockItem("slashedsteelpatton", ModBlocks.SLASHEDSTEELPATTON);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELPINE = ITEMS.registerSimpleBlockItem("slashedsteelpine", ModBlocks.SLASHEDSTEELPINE);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELROTA = ITEMS.registerSimpleBlockItem("slashedsteelrota", ModBlocks.SLASHEDSTEELROTA);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELSCALE = ITEMS.registerSimpleBlockItem("slashedsteelscale", ModBlocks.SLASHEDSTEELSCALE);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELSENSHA = ITEMS.registerSimpleBlockItem("slashedsteelsensha", ModBlocks.SLASHEDSTEELSENSHA);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELSLATE = ITEMS.registerSimpleBlockItem("slashedsteelslate", ModBlocks.SLASHEDSTEELSLATE);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELSNOW = ITEMS.registerSimpleBlockItem("slashedsteelsnow", ModBlocks.SLASHEDSTEELSNOW);
+    public static final DeferredItem<BlockItem> SLASHEDSTEELTYPE = ITEMS.registerSimpleBlockItem("slashedsteeltype", ModBlocks.SLASHEDSTEELTYPE);
+
+    // Hatches
+//    public static final DeferredItem<BlockItem> HATCH_4BO = ITEMS.registerSimpleBlockItem("hatch_4bo", ModBlocks.HATCH_4BO);
+//    public static final DeferredItem<BlockItem> HATCHALGAE = ITEMS.registerSimpleBlockItem("hatchalgae", ModBlocks.HATCHALGAE);
+//    public static final DeferredItem<BlockItem> HATCHARDENNE = ITEMS.registerSimpleBlockItem("hatchardenne", ModBlocks.HATCHARDENNE);
+//    public static final DeferredItem<BlockItem> HATCHAZURE = ITEMS.registerSimpleBlockItem("hatchazure", ModBlocks.HATCHAZURE);
+//    public static final DeferredItem<BlockItem> HATCHBLUSH = ITEMS.registerSimpleBlockItem("hatchblush", ModBlocks.HATCHBLUSH);
+//    public static final DeferredItem<BlockItem> HATCHCACTUS = ITEMS.registerSimpleBlockItem("hatchcactus", ModBlocks.HATCHCACTUS);
+//    public static final DeferredItem<BlockItem> HATCHCAMEL = ITEMS.registerSimpleBlockItem("hatchcamel", ModBlocks.HATCHCAMEL);
+//    public static final DeferredItem<BlockItem> HATCHCHARCOAL = ITEMS.registerSimpleBlockItem("hatchcharcoal", ModBlocks.HATCHCHARCOAL);
+//    public static final DeferredItem<BlockItem> HATCHCHERENKOV = ITEMS.registerSimpleBlockItem("hatchcherenkov", ModBlocks.HATCHCHERENKOV);
+//    public static final DeferredItem<BlockItem> HATCHCORAL = ITEMS.registerSimpleBlockItem("hatchcoral", ModBlocks.HATCHCORAL);
+//    public static final DeferredItem<BlockItem> HATCHDESERT = ITEMS.registerSimpleBlockItem("hatchdesert", ModBlocks.HATCHDESERT);
+//    public static final DeferredItem<BlockItem> HATCHDUST = ITEMS.registerSimpleBlockItem("hatchdust", ModBlocks.HATCHDUST);
+//    public static final DeferredItem<BlockItem> HATCHGARUPAN = ITEMS.registerSimpleBlockItem("hatchgarupan", ModBlocks.HATCHGARUPAN);
+//    public static final DeferredItem<BlockItem> HATCHGELB = ITEMS.registerSimpleBlockItem("hatchgelb", ModBlocks.HATCHGELB);
+//    public static final DeferredItem<BlockItem> HATCHGINK = ITEMS.registerSimpleBlockItem("hatchgink", ModBlocks.HATCHGINK);
+//    public static final DeferredItem<BlockItem> HATCHGORGE = ITEMS.registerSimpleBlockItem("hatchgorge", ModBlocks.HATCHGORGE);
+//    public static final DeferredItem<BlockItem> HATCHGRAVEL = ITEMS.registerSimpleBlockItem("hatchgravel", ModBlocks.HATCHGRAVEL);
+//    public static final DeferredItem<BlockItem> HATCHGRIZZLY = ITEMS.registerSimpleBlockItem("hatchgrizzly", ModBlocks.HATCHGRIZZLY);
+//    public static final DeferredItem<BlockItem> HATCHHIDE = ITEMS.registerSimpleBlockItem("hatchhide", ModBlocks.HATCHHIDE);
+//    public static final DeferredItem<BlockItem> HATCHHORIZON = ITEMS.registerSimpleBlockItem("hatchhorizon", ModBlocks.HATCHHORIZON);
+//    public static final DeferredItem<BlockItem> HATCHJET = ITEMS.registerSimpleBlockItem("hatchjet", ModBlocks.HATCHJET);
+//    public static final DeferredItem<BlockItem> HATCHKAMPFGRAU = ITEMS.registerSimpleBlockItem("hatchkampfgrau", ModBlocks.HATCHKAMPFGRAU);
+//    public static final DeferredItem<BlockItem> HATCHKAT = ITEMS.registerSimpleBlockItem("hatchkat", ModBlocks.HATCHKAT);
+//    public static final DeferredItem<BlockItem> HATCHLEY = ITEMS.registerSimpleBlockItem("hatchley", ModBlocks.HATCHLEY);
+//    public static final DeferredItem<BlockItem> HATCHOLIVE = ITEMS.registerSimpleBlockItem("hatcholive", ModBlocks.HATCHOLIVE);
+//    public static final DeferredItem<BlockItem> HATCHPANZERGRAU = ITEMS.registerSimpleBlockItem("hatchpanzergrau", ModBlocks.HATCHPANZERGRAU);
+//    public static final DeferredItem<BlockItem> HATCHPARADE = ITEMS.registerSimpleBlockItem("hatchparade", ModBlocks.HATCHPARADE);
+//    public static final DeferredItem<BlockItem> HATCHPATTON = ITEMS.registerSimpleBlockItem("hatchpatton", ModBlocks.HATCHPATTON);
+//    public static final DeferredItem<BlockItem> HATCHPINE = ITEMS.registerSimpleBlockItem("hatchpine", ModBlocks.HATCHPINE);
+//    public static final DeferredItem<BlockItem> HATCHROTA = ITEMS.registerSimpleBlockItem("hatchrota", ModBlocks.HATCHROTA);
+//    public static final DeferredItem<BlockItem> HATCHSCALE = ITEMS.registerSimpleBlockItem("hatchscale", ModBlocks.HATCHSCALE);
+//    public static final DeferredItem<BlockItem> HATCHSENSHA = ITEMS.registerSimpleBlockItem("hatchsensha", ModBlocks.HATCHSENSHA);
+//    public static final DeferredItem<BlockItem> HATCHSLATE = ITEMS.registerSimpleBlockItem("hatchslate", ModBlocks.HATCHSLATE);
+//    public static final DeferredItem<BlockItem> HATCHSNOW = ITEMS.registerSimpleBlockItem("hatchsnow", ModBlocks.HATCHSNOW);
+//    public static final DeferredItem<BlockItem> HATCHTYPE = ITEMS.registerSimpleBlockItem("hatchtype", ModBlocks.HATCHTYPE);
+
+    // Misc
+    public static final DeferredItem<BlockItem> SANDBAGGREEN = ITEMS.registerSimpleBlockItem("sandbaggreen", ModBlocks.SANDBAGGREEN);
+    public static final DeferredItem<BlockItem> SANDBAGTAN = ITEMS.registerSimpleBlockItem("sandbagtan", ModBlocks.SANDBAGTAN);
+
+    public static void initialize(IEventBus bus) {
+        ITEMS.register(bus);
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchclosedazure",
+  "textures": {
+    "all": "rha:block/hardsteelazuretex",
+    "particle": "rha:block/hardsteelazuretex",
+    "0": "rha:block/hardsteelazuretex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelazuretex"
+  },
+  "render_type": "solid"
+}

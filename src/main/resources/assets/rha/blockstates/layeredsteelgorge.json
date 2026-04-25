@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rha:block/layeredsteelgorge"
+    },
+    "facing=east": {
+      "model": "rha:block/layeredsteelgorge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rha:block/layeredsteelgorge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rha:block/layeredsteelgorge",
+      "y": 270
+    }
+  }
+}

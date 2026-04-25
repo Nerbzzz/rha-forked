@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/slashedsteelpanzergrautex",
+    "up": "rha:block/slashedsteelpanzergrautex",
+    "north": "rha:block/slashedsteelpanzergrautex",
+    "east": "rha:block/slashedsteelpanzergrautex",
+    "south": "rha:block/slashedsteelpanzergrautex",
+    "west": "rha:block/slashedsteelpanzergrautex",
+    "particle": "rha:block/slashedsteelpanzergrautex"
+  },
+  "render_type": "solid"
+}

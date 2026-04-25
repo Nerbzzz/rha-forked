@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rha:block/layeredsteelgrizzlytex",
+    "up": "rha:block/layeredsteelgrizzlytex",
+    "north": "rha:block/layeredsteelgrizzlytex",
+    "east": "rha:block/slashedsteelgrizzlytex",
+    "south": "rha:block/layeredsteelgrizzlytex",
+    "west": "rha:block/slashedsteelgrizzlytex",
+    "particle": "rha:block/layeredsteelgrizzlytex"
+  },
+  "render_type": "solid"
+}

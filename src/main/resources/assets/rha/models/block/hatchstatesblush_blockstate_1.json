@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopenblush",
+  "textures": {
+    "all": "rha:block/hardsteelblush",
+    "particle": "rha:block/hardsteelblush",
+    "0": "rha:block/hardsteelblush",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelblush"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rha:block/layeredsteelpanzergrau"
+    },
+    "facing=east": {
+      "model": "rha:block/layeredsteelpanzergrau",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rha:block/layeredsteelpanzergrau",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rha:block/layeredsteelpanzergrau",
+      "y": 270
+    }
+  }
+}

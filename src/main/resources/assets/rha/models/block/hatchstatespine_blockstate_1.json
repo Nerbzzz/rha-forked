@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopenpine",
+  "textures": {
+    "all": "rha:block/hardsteelpinetex",
+    "particle": "rha:block/hardsteelpinetex",
+    "0": "rha:block/hardsteelpinetex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelpinetex"
+  },
+  "render_type": "solid"
+}

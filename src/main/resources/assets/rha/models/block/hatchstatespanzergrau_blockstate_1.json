@@ -1,0 +1,11 @@
+{
+  "parent": "rha:custom/hatchopenpanzergrau",
+  "textures": {
+    "all": "rha:block/hardsteelpanzergrautex",
+    "particle": "rha:block/hardsteelpanzergrautex",
+    "0": "rha:block/hardsteelpanzergrautex",
+    "2": "rha:block/slashedsteelslatetex",
+    "3": "rha:block/slashedsteelpanzergrautex"
+  },
+  "render_type": "solid"
+}
